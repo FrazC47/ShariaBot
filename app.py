@@ -23,7 +23,7 @@ except Exception as e:
 # =========================
 # 🎨 App Title
 # =========================
-st.title("My Prompt Test App 💬")
+st.title("Buraq Bank Sharia Finance Bot — Test Version")
 PROMPT_ID = "pmpt_690069ca73ac8190a17467e9d9850aec0f5728a89768fdc9"
 PROMPT_VERSION = "12"  # ✅ Make sure this matches the current published version
 st.write(f"Using prompt: `{PROMPT_ID}` (v{PROMPT_VERSION})")
