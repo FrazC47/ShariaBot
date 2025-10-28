@@ -25,7 +25,7 @@ except Exception as e:
 # =========================
 st.title("Buraq Bank Sharia Finance Bot — Test Version")
 PROMPT_ID = "pmpt_690069ca73ac8190a17467e9d9850aec0f5728a89768fdc9"
-PROMPT_VERSION = "12"  # ✅ Make sure this matches the current published version
+PROMPT_VERSION = "13"  # ✅ Make sure this matches the current published version
 st.write(f"Using prompt: `{PROMPT_ID}` (v{PROMPT_VERSION})")
 
 # =========================
