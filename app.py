@@ -53,7 +53,7 @@ if user_input := st.chat_input("What is up?"):
                 response = client.responses.create(
                     prompt={
                         "id": "pmpt_690069ca73ac8190a17467e9d9850aec0f5728a89768fdc9", # Use your prompt ID
-                        "version": "8",  # Use the latest published version from your prompt
+                        "version": "9",  # Use the latest published version from your prompt
                         "variables": {
                             "user_message": user_input,
                             # conversation_id variable is defined in the prompt, but value comes from the top-level 'conversation' argument below
